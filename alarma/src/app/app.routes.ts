@@ -4,9 +4,9 @@ import { HomeComponent } from './home/home.component';
 import { HomeLoginComponent } from './home-login/home-login.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },  // Ruta para la página de inicio
-    { path: 'home', component: HomeLoginComponent },  // Ruta para el componente home-login
-    { path: '**', redirectTo: '' }  // Redirigir a home por defecto
+    { path: '', component: HomeComponent },  
+    { path: 'home', component: HomeLoginComponent },  
+    { path: '**', redirectTo: '' } 
   ];
 
 @NgModule({
