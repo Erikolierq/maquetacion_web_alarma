@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';  
+
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -9,5 +11,5 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  
 }

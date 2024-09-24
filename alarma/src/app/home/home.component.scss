@@ -159,3 +159,93 @@
         right: 0; 
         opacity: 0.5;
       }
+
+      /* Estilos generales */
+.modal-content {
+    width: 870px;
+    height: 750px;
+    background: linear-gradient(#3A3D63 70%, #747BD0 );  
+  } 
+  
+  #loginModalLabel {
+    
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-align: center;
+    
+    
+  }
+  .form-control{
+  background-color: #3A3D63; 
+  color: white; 
+  border: 1px solid #ccc; 
+  padding: 10px;
+  border-radius: 5px; 
+  }
+  .modal-body {
+    font-family: 'Acme', sans-serif;
+    color: white;
+    font-size: 16px;
+    padding: 50px 100px 1175px 100px;
+  }
+  
+  #username, #password {
+    font-family: 'Acme', sans-serif;
+    padding: 10px;
+    color: white;
+  }
+  #modalogin{
+   
+    background-color: #475CF9;  
+    color: white;  
+    width: 135px;  
+    height: 50px;
+    border: none;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ease; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  #modalogin:hover{
+    background-color: #6474f0;  
+    color: white;  
+    width: 135px;  
+    height: 50px;
+    border: none;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ease; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  #modalacc{
+    font-family: 'Acme', sans-serif;  
+    color: white;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: center;  
+    align-items: center;  
+    width: 40%;  
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  #line3 {
+    width: 3000px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  #logosredes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+    
+  }
