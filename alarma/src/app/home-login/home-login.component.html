@@ -42,21 +42,21 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>3:00 AM</td>
+                    <td data-bs-toggle="modal" data-bs-target="#alarmModal">3:00 AM</td>
                     <td>Todos los días</td>
                     <td>Cielos 3 de la mañana, ñam ñam ñam</td>
                     <td>Patricio.mp3</td>
                     <td><img style="width: 36px; height:36px; margin-right: 15px;" src="assets/images/lapiz-de-grafito.png" data-bs-toggle="modal" data-bs-target="#loginModal"><img style="width: 36px; height:36px; margin-right: 15px; " src="assets/images/ojo.png"><img style="width: 36px; height:36px; margin-right: -55px;" src="assets/images/basura.png" data-bs-toggle="modal" data-bs-target="#deleteAlarmModal"></td>
                   </tr>
                   <tr>
-                    <td>11:20 PM</td>
+                    <td data-bs-toggle="modal" data-bs-target="#alarmModal">11:20 PM</td>
                     <td>24 de agosto</td>
                     <td>Cita con el dentista</td>
                     <td>Campana</td>
                     <td><img style="width: 36px; height:36px; margin-right: 15px;" src="assets/images/lapiz-de-grafito.png" data-bs-toggle="modal" data-bs-target="#loginModal"><img style="width: 36px; height:36px; margin-right: 15px; " src="assets/images/ojo.png"><img style="width: 36px; height:36px; margin-right: -55px;" src="assets/images/basura.png" data-bs-toggle="modal" data-bs-target="#deleteAlarmModal"></td>
                   </tr>
                   <tr>
-                    <td>12:00 PM</td>
+                    <td data-bs-toggle="modal" data-bs-target="#alarmModal">12:00 PM</td>
                     <td>25 de octubre</td>
                     <td>Estreno: Call of duty black ops 6</td>
                     <td>Call_of_duty.mp3</td>
@@ -123,7 +123,7 @@
  <!-- Modal 1 -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-lg" style="max-width: 870px;">
-  <div class="modal-content">
+  <div class="modal-content" style="margin-top:200px">
      <div class="modal-body">
       <h2 class="text-center" style="text-align: center;">Crear alarma</h2>
       <div class="container">
@@ -239,7 +239,7 @@
 <!-- Modal 2 -->  
 <div class="modal fade" id="deleteAlarmModal" tabindex="-1" aria-labelledby="deleteAlarmModalLabel" aria-hidden="true" >  
 <div class="modal-dialog">  
-    <div class="modal-content custom-modal" style="width: 625px; height: 300px;">  
+    <div class="modal-content custom-modal" style="width: 625px; height: 300px; margin-top:500px">  
           
         <div class="modal-body" id="textomodal2"> 
           <h2 class="modal-title" id="deleteAlarmModalLabel" id="textomodal3">Eliminar alarma</h2>   
@@ -251,4 +251,21 @@
         </div> 
     </div>  
 </div>  
+</div>  
+<!-- Modal  3-->  
+<div class="modal fade" id="alarmModal" tabindex="-1" aria-labelledby="alarmModalLabel" aria-hidden="true">  
+<div class="modal-dialog">  
+  <div class="modal-content custom-modal" style="width: 1500px; height: 1000px; margin-left: -500px; margin-top:200px; opacity:0.95">  
+    <img src="assets/images/alarma.png" class="img-fluid rounded-start" alt="Call of duty black ops 6" id="alarmacentralimg">  
+      <div class="modal-body" id="textomodal2"> 
+        <h2 class="modal-title" id="deleteAlarmModalLabel" id="textomodal3">Cielos 3 de la mañana, ñam ñam ñam</h2>   
+        ¡Ganaste 10 puntos!
+      </div> 
+      <img src="assets/images/sonido.png" class="img-fluid rounded-start" alt="Call of duty black ops 6" id="alarmacentralimg2">   
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary me-2" id="btncancelar" data-bs-toggle="modal" data-bs-dismiss="#deleteAlarmModal">Apagar</button>
+        <button type="submit" class="btn btn-primary" id="btncrear" data-bs-toggle="modal" data-bs-dismiss="#deleteAlarmModal">Posponer</button>
+      </div> 
+  </div>  
+</div>   
 </div>  
