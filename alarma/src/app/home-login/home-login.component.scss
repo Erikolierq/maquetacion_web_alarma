@@ -1,0 +1,342 @@
+.navbar {  
+  border-bottom: 1px solid #1f2833;  
+}  
+#navText {  
+  font-family: 'Acme', sans-serif;  
+  font-size: 28px;
+  
+} 
+
+#newalarm{
+background-color: #C55CF2;  
+color: white;  
+width: 136px;  
+height: 56px;  
+border: none;  
+border-radius: 5px;  
+transition: background-color 0.3s ease; 
+margin-bottom: 20px;
+}
+#newalarm:hover{
+  background-color: #c86fee;  
+  color: white;  
+  width: 136px;  
+  height: 56px;    
+  border: none;  
+  border-radius: 5px;  
+  transition: background-color 0.3s ease; 
+  margin-bottom: 20px;
+}
+#login{
+  background-color: #0E0D1F;  
+  color: white;  
+  width: 135px;  
+  height: 50px;  
+  border: none;  
+  border-radius: 5px;  
+  transition: background-color 0.3s ease; 
+}
+#signin{
+  background-color: #0E0D1F;  
+  color: white;  
+  width: 135px;  
+  height: 50px;  
+  border: none;  
+  border-radius: 5px;  
+  transition: background-color 0.3s ease; 
+}
+#signin:hover{
+    background-color: #0E0D1F;  
+    color: white;  
+    width: 135px;  
+    height: 50px;  
+    border: none;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ease; 
+  }
+#login:hover{
+    background-color: #0E0D1F;  
+    color: white;  
+    width: 135px;  
+    height: 50px;  
+    border: none;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ease; 
+  }
+  .background-container {  
+      display: flex;  
+      flex-direction: column;  
+      height: 100vh; 
+    }   
+    
+    .background-image {  
+      background-image: url('../../assets/images/bg1.jpeg');  
+      background-size: cover;  
+      background-position: center;  
+      height: 30%; 
+      opacity: 0.8;
+      border-bottom: 4px solid #C55CF2;  
+      
+  }  
+  
+  .background-color {  
+    background: linear-gradient(#13112E, #2A2750 );  
+    height: 70%;  
+  }
+  #CenterText1 {  
+      font-family: 'Acme', sans-serif;  
+      color: white;  
+      display: flex;  
+      justify-content: center;  
+      align-items: center;  
+      height: 20%;  
+      text-align: center; 
+      margin-top: 100px; 
+      font-size: 100px;
+      } 
+      #CenterText2 {  
+        font-family: 'Acme', sans-serif;  
+        color: white;  
+        display: flex;  
+        justify-content: center;  
+        align-items: center;  
+        height: 20%;  
+        text-align: center; 
+        margin-top: 50px; 
+        font-size: 100px;
+        } 
+
+        #tabla1 {
+          background-color: #13112E; 
+          color: #13112E; 
+          font-family: 'Acme', sans-serif;
+          width: 100%;
+        
+        }
+        .custom-table {
+          width: 100%; 
+          font-size: 1.2rem; 
+          border-collapse: separate;
+          
+        }
+        #tabla1 th, #tabla1 td {
+          border: 2px solid black; 
+          padding: 20px;
+          
+        }
+        #tabla1 th {
+          background-color: #6268B1; 
+          color: #f8f9fa;
+         
+        }
+        #tabla1 td {
+          color: #f8f9fa;
+          background-color: #6268B1; 
+        }
+
+.newbgcolor2{
+  background-color: #3A3D63; 
+    height: 100%;  
+}
+
+.custom-card {
+  background-color: #13112E; 
+  color: white; 
+  border-radius: 10px;
+  
+  .card-body {
+    padding: 20px;
+    
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .card-text {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+    }
+    
+    .btn {
+      background-color: #C55CF2;
+      border: none;
+      width: 175px; 
+      height: 40px; 
+      font-size: 1rem;
+      border-radius: 20px;
+      display: block;
+      margin: 0 auto; 
+      text-align: center; 
+      &:hover {
+        background-color: rgb(156, 94, 211); 
+      }
+    }
+  }
+  
+  img {
+    border-radius: 10px 0 0 10px; 
+  }
+}
+
+#noticias{
+  font-family: 'Acme', sans-serif;  
+  font-size: 28px;
+  color: white;
+}
+.modal-content {
+  width: 1135px;
+  height: 824px;
+  background: linear-gradient(#3A3D63 70%, #747BD0 );  
+  
+} 
+
+#loginModalLabel {
+  
+  font-family: 'Acme', sans-serif;
+  color: white;
+  text-align: center;
+  
+  
+}
+
+
+h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+.form-control, .form-select, .btn {
+  border-radius: 20px;
+}
+
+#btncrear{
+  
+  background-color: #C55CF2;
+  border: none;
+  width: 175px;
+  height: 40px;
+}
+#btncrear:hover{
+  background-color: #cb7bee;
+  border: none;
+  width: 175px;
+  height: 40px;
+}
+#btncancelar{
+  background-color: #475CF9;
+  border: none;
+  width: 175px;
+  height: 40px;
+}
+#btncancelar:hover{
+  background-color: #6373f1;
+  border: none;
+  width: 175px;
+  height: 40px;
+}
+
+.text-center{
+  
+    font-family: 'Acme', sans-serif;  
+    color: white;  
+    display: flex;  
+    justify-content: center;  
+    font-size: 35px;
+    align-items: center;  
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+} 
+#btncancelar, #btncrear{
+  margin-bottom: 200px;
+  margin-top: 60px;
+}
+#textomodal1{
+  color: white;
+  margin-bottom: 5px;
+  font-family: 'Acme', sans-serif;  
+  font-size: 25px;
+}
+.time-picker-box {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+}
+#textdia{
+  color: black;
+}
+
+.time-picker-hour, .time-picker-minute {
+  width: 200px;
+  background-color: #65558F; 
+  border-radius: 10px;
+}
+
+.time-picker-hour input, .time-picker-minute input {
+  color: white;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.time-picker-separator {
+  font-size: 24px;
+  margin: 0 10px;
+  color: black;
+}
+
+.btn-outline-primary {
+  border-color: #65558F; 
+  color: black;
+  
+}
+
+.btn-outline-primary:hover {
+  background-color: #65558F;
+  border-color: #65558F;
+}
+
+.time-picker .btn-check:checked + .btn-outline-primary {
+  background-color: #65558F;
+  border-color: #65558F;
+}
+
+.time-picker-box label {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+#textomodal2{
+  color: white;
+  text-align: center;
+  font-family: 'Acme', sans-serif;  
+  font-size: 25px;
+}
+#textomodal3{
+  color: white;
+  text-align: center;
+  font-family: 'Acme', sans-serif;  
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#alarmacentralimg{
+  margin-top: 20px;
+  width: 600px;
+  height:600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#alarmacentralimg2{
+  width: 50px;
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
